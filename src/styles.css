@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+*
+{
+    padding:0;
+    margin:0;
+    
+}
+:root
+{
+    --primary-color: navy;
+    --secondary-color: white;
+}
+
+body
+{
+    height:100vh;
+    font-family: 'Times New Roman', Times, serif;
+}
+.bg-primary
+{
+    background-color:#ffe8f7 !important;
+    
+}
