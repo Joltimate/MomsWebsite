@@ -18,6 +18,7 @@
     "@angular/platform-browser": "~13.1.0",
     "@angular/platform-browser-dynamic": "~13.1.0",
     "@angular/router": "~13.1.0",
+    "ng-image-slider": "^2.8.0",
     "ngx-useful-swiper": "^10.0.1",
     "rxjs": "~7.4.0",
     "swiper": "^6.8.4",

@@ -8,7 +8,8 @@ import { ContactComponent } from './Pages/contact/contact.component';
 import { NavbarComponent } from './NavBar/navbar/navbar.component';
 import { FooterComponent } from './NavBar/footer/footer.component';
 import { AlbumComponent } from './Pages/album/album.component';
-import { NgxUsefulSwiperModule } from 'ngx-useful-swiper';
+import { NgImageSliderModule } from 'ng-image-slider';
+
 
 
 @NgModule({
@@ -23,7 +24,7 @@ import { NgxUsefulSwiperModule } from 'ngx-useful-swiper';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgxUsefulSwiperModule
+    NgImageSliderModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

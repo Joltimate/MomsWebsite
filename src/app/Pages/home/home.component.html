@@ -2,20 +2,11 @@
 <div class="header">
     <h1>What I Do</h1>
 </div>
-<swiper [config]="config">
-  <div class="swiper-wrapper">
-    <div class="swiper-slide"><img src="https://loremflickr.com/g/600/400/paris" alt="img 1"></div>
-    <div class="swiper-slide"><img src="https://loremflickr.com/600/400/brazil,rio" alt="img 2"></div>
-    <div class="swiper-slide"><img src="https://loremflickr.com/600/400/paris,girl/all" alt="img 3"></div>
-    <div class="swiper-slide"><img src="https://loremflickr.com/g/600/400/paris" alt="img 4"></div>
-    <div class="swiper-slide"><img src="https://loremflickr.com/600/400/brazil,rio" alt="img 5"></div>
-    <div class="swiper-slide"><img src="https://loremflickr.com/600/400/paris,girl/all" alt="img 6"></div>
+<div style="width: 840px; height: 500px; text-align:center;margin:0; padding:0;">
+    <ng-image-slider #nav
+      [images]="imageObject"
+      [infinite]="true"
+      [autoSlide]="1"
+      [imageSize]="{width: '25%', height: 200}"
+      slideImage="1"></ng-image-slider>
   </div>
- 
-  <!-- Add Pagination -->
-  <div class="swiper-pagination"></div>
- 
-  <!-- Add Arrows -->
-  <div class="swiper-button-next"></div>
-  <div class="swiper-button-prev"></div>
-</swiper>
