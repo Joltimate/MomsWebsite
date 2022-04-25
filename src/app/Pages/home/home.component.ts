@@ -39,7 +39,7 @@ export class HomeComponent implements OnInit {
     thumbImage: 'assets/img/sra5.jpg',
   },{
     image: 'assets/img/nina4.jpg',
-    thumbImage: 'assets/img/nin4.jpg',
+    thumbImage: 'assets/img/nina4.jpg',
   },{
     image: 'assets/img/nina5.jpg',
     thumbImage: 'assets/img/nina5.jpg',
