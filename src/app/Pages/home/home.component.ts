@@ -12,29 +12,41 @@ export class HomeComponent implements OnInit {
   }
 
   imageObject = [{
-    image: 'https://sanjayv.github.io/ng-image-slider/contents/assets/img/slider/5.jpg',
-    thumbImage: 'https://sanjayv.github.io/ng-image-slider/contents/assets/img/slider/5.jpg',
-    title: 'Hummingbirds are amazing creatures'
-}, {
-    image: 'https://sanjayv.github.io/ng-image-slider/contents/assets/img/slider/9.jpg',
-    thumbImage: 'https://sanjayv.github.io/ng-image-slider/contents/assets/img/slider/9.jpg'
-}, {
-    image: 'https://sanjayv.github.io/ng-image-slider/contents/assets/img/slider/4.jpg',
-    thumbImage: 'https://sanjayv.github.io/ng-image-slider/contents/assets/img/slider/4.jpg',
-    title: 'Example with title.'
-},{
-    image: 'https://sanjayv.github.io/ng-image-slider/contents/assets/img/slider/7.jpg',
-    thumbImage: 'https://sanjayv.github.io/ng-image-slider/contents/assets/img/slider/7.jpg',
-    title: 'Hummingbirds are amazing creatures'
-}, {
-    image: 'https://sanjayv.github.io/ng-image-slider/contents/assets/img/slider/1.jpg',
-    thumbImage: 'https://sanjayv.github.io/ng-image-slider/contents/assets/img/slider/1.jpg'
-}, {
-    image: 'https://sanjayv.github.io/ng-image-slider/contents/assets/img/slider/2.jpg',
-    thumbImage: 'https://sanjayv.github.io/ng-image-slider/contents/assets/img/slider/2.jpg',
-    title: 'Example two with title.'
-}];
+    image: 'assets/img/nina.jpg',
+    thumbImage: 'assets/img/nina.jpg',
+  },
+  {
+    image: 'assets/img/nina2.jpg',
+    thumbImage: 'assets/img/nina2.jpg',
+  },
+  {
+    image: 'assets/img/sra1.jpg',
+    thumbImage: 'assets/img/sra1.jpg',
+  },{
+    image: 'assets/img/sra2.jpg',
+    thumbImage: 'assets/img/sra2.jpg',
+  },{
+    image: 'assets/img/nina3.jpg',
+    thumbImage: 'assets/img/nina3.jpg',
+  },{
+    image: 'assets/img/sra3.jpg',
+    thumbImage: 'assets/img/sra3.jpg',
+  },{
+    image: 'assets/img/sra4.jpg',
+    thumbImage: 'assets/img/sra4.jpg',
+  },{
+    image: 'assets/img/sra5.jpg',
+    thumbImage: 'assets/img/sra5.jpg',
+  },{
+    image: 'assets/img/nina4.jpg',
+    thumbImage: 'assets/img/nin4.jpg',
+  },{
+    image: 'assets/img/nina5.jpg',
+    thumbImage: 'assets/img/nina5.jpg',
+  },
 
 
+
+];
 }
 

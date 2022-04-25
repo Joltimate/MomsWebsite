@@ -1,12 +1,18 @@
 
-<div class="header">
-    <h1>What I Do</h1>
-</div>
-<div style="width: 840px; height: 500px; text-align:center;margin:0; padding:0;">
-    <ng-image-slider #nav
-      [images]="imageObject"
-      [infinite]="true"
-      [autoSlide]="1"
-      [imageSize]="{width: '25%', height: 200}"
-      slideImage="1"></ng-image-slider>
+<div class="content">
+    
+    <h2 class="labels">Hair Styling</h2>
+    <div class="swipers">
+    
+        <ng-image-slider #nav
+        [images]="imageObject"
+        [infinite]="true"
+        [autoSlide]="1"
+        [imageSize]="{width: '15%', height: 200}"
+        [animationSpeed]="1"
+        [showArrow]="true"
+        slideImage="1"
+        ></ng-image-slider>
   </div>
+
+</div>

@@ -1,7 +1,12 @@
-.header
+
+.labels
 {
-    text-align: center;
-    font-family:Impact, fantasy
+    text-align:left;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
-
-
+.swipers
+{
+    text-align:center;
+    margin:0; padding:0;
+}
