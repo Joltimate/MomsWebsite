@@ -8,6 +8,8 @@ import { ContactComponent } from './Pages/contact/contact.component';
 import { NavbarComponent } from './NavBar/navbar/navbar.component';
 import { FooterComponent } from './NavBar/footer/footer.component';
 import { AlbumComponent } from './Pages/album/album.component';
+import { NgxUsefulSwiperModule } from 'ngx-useful-swiper';
+
 
 @NgModule({
   declarations: [
@@ -20,7 +22,8 @@ import { AlbumComponent } from './Pages/album/album.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgxUsefulSwiperModule
   ],
   providers: [],
   bootstrap: [AppComponent]
