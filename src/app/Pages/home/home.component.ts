@@ -11,7 +11,7 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  imageObject = [{
+  hairStyle = [{
     image: 'assets/img/nina.jpg',
     thumbImage: 'assets/img/nina.jpg',
   },
@@ -44,9 +44,6 @@ export class HomeComponent implements OnInit {
     image: 'assets/img/nina5.jpg',
     thumbImage: 'assets/img/nina5.jpg',
   },
-
-
-
 ];
 }
 
