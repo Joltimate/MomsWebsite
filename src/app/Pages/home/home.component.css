@@ -1,9 +1,12 @@
 
 .labels
 {
-    text-align:left;
+    text-align:center;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
+    text-decoration: underline;
+    text-decoration-color: #b80579;
+    color:navy;
+    font-size: 30px;
 }
 .swipers
 {

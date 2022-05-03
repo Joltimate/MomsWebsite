@@ -7,7 +7,6 @@ import { HomeComponent } from './Pages/home/home.component';
 import { ContactComponent } from './Pages/contact/contact.component';
 import { NavbarComponent } from './NavBar/navbar/navbar.component';
 import { FooterComponent } from './NavBar/footer/footer.component';
-import { AlbumComponent } from './Pages/album/album.component';
 import { NgImageSliderModule } from 'ng-image-slider';
 
 
@@ -19,7 +18,6 @@ import { NgImageSliderModule } from 'ng-image-slider';
     ContactComponent,
     NavbarComponent,
     FooterComponent,
-    AlbumComponent
   ],
   imports: [
     BrowserModule,
