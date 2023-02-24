@@ -1,7 +1,7 @@
 .footer
 {
     overflow:hidden;
-    background-color: #ffe8f7;
+    background-color: var(--background-color);
     padding: 20px 10px;
     position: sticky;
     top:100%;

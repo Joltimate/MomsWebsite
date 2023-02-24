@@ -5,7 +5,7 @@
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration: underline;
     text-decoration-color: #b80579;
-    color:navy;
+    color:var(--gold-color);
     font-size: 30px;
 }
 .swipers
@@ -13,3 +13,4 @@
     text-align:center;
     margin:0; padding:0;
 }
+

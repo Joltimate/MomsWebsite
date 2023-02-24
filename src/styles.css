@@ -9,6 +9,8 @@
 {
     --primary-color: navy;
     --secondary-color: white;
+    --background-color:#FDECEF;
+    --gold-color: #B3831D;
 }
 
 body
@@ -18,6 +20,6 @@ body
 }
 .bg-primary
 {
-    background-color:#ffe8f7 !important;
+    background-color: var(--background-color)!important;
     
 }
